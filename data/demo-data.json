@@ -1,0 +1,1193 @@
+{
+  "institutions": [
+    {
+      "id": "inst-gtu-001",
+      "name": "Shri Karmaveer Institute of Technology",
+      "code": "SKIT-GTU",
+      "type": "Engineering College",
+      "location": "Rajkot, Gujarat, India",
+      "email_domain": "skit.edu.in",
+      "naac_grade": "A",
+      "total_students": 4200,
+      "status": "approved",
+      "verification_stats": {
+        "documents_processed": 12500,
+        "success_rate": 92.4,
+        "pending_verifications": 42
+      },
+      "contact": {
+        "principal": "Dr. Meera Patel",
+        "admin_email": "registrar@skit.edu.in",
+        "phone": "+91-281-1234567"
+      },
+      "registration_date": "2020-06-12"
+    },
+    {
+      "id": "inst-gtu-002",
+      "name": "Sardar Patel College of Engineering",
+      "code": "SPCE-GTU",
+      "type": "Engineering College",
+      "location": "Ahmedabad, Gujarat, India",
+      "email_domain": "spce.ac.in",
+      "naac_grade": "B++",
+      "total_students": 3100,
+      "status": "pending",
+      "verification_stats": {
+        "documents_processed": 4200,
+        "success_rate": 86.1,
+        "pending_verifications": 210
+      },
+      "contact": {
+        "principal": "Prof. Rakesh Desai",
+        "admin_email": "admin@spce.ac.in",
+        "phone": "+91-79-2345678"
+      },
+      "registration_date": "2024-02-05"
+    },
+    {
+      "id": "inst-gtu-003",
+      "name": "Govt. Polytechnic - Vadodara",
+      "code": "GPV-GTU",
+      "type": "Polytechnic",
+      "location": "Vadodara, Gujarat, India",
+      "email_domain": "gpv.edu.in",
+      "naac_grade": "C",
+      "total_students": 980,
+      "status": "rejected",
+      "verification_stats": {
+        "documents_processed": 320,
+        "success_rate": 58.7,
+        "pending_verifications": 12
+      },
+      "contact": {
+        "principal": "Mr. Anil Joshi",
+        "admin_email": "office@gpv.edu.in",
+        "phone": "+91-265-7654321"
+      },
+      "registration_date": "2024-11-10"
+    }
+  ],
+
+  "students": [
+    {
+      "id": "stu-001",
+      "enrollment_number": "GTU/2022/CS/1001",
+      "name": "Amit Sharma",
+      "email": "amit.sharma@skit.edu.in",
+      "personal_email": "amit.sharma.personal@gmail.com",
+      "phone": "+91-9825012345",
+      "institution_id": "inst-gtu-001",
+      "course": "B.Tech Computer Engineering",
+      "semester": 6,
+      "year": 3,
+      "expected_graduation": "2025-06-15",
+      "profile": {
+        "photo": "amit_sharma.jpg",
+        "bio": "Third year CS student interested in ML and cloud.",
+        "skills": ["Python", "Machine Learning", "Git"],
+        "verification_score": 91.2,
+        "profile_completion": 88
+      },
+      "academic_details": {
+        "current_cgpa": 8.6,
+        "total_credits": 120,
+        "attendance": 92.5
+      },
+      "verification_status": {
+        "total_documents": 7,
+        "verified": 6,
+        "pending": 1,
+        "rejected": 0
+      },
+      "registration_date": "2022-07-10",
+      "last_login": "2025-09-15T14:23:05Z"
+    },
+    {
+      "id": "stu-002",
+      "enrollment_number": "GTU/2023/EC/1002",
+      "name": "Bhavika Patel",
+      "email": "bhavika.patel@spce.ac.in",
+      "personal_email": "bhavika.patel@gmail.com",
+      "phone": "+91-9876543210",
+      "institution_id": "inst-gtu-002",
+      "course": "B.Tech Electronics",
+      "semester": 2,
+      "year": 1,
+      "expected_graduation": "2027-06-15",
+      "profile": {
+        "photo": "bhavika_patel.jpg",
+        "bio": "First year electronics student. Interested in robotics.",
+        "skills": ["C", "Electronics Basics"],
+        "verification_score": 47.5,
+        "profile_completion": 45
+      },
+      "academic_details": {
+        "current_cgpa": 6.7,
+        "total_credits": 28,
+        "attendance": 78.0
+      },
+      "verification_status": {
+        "total_documents": 3,
+        "verified": 0,
+        "pending": 3,
+        "rejected": 0
+      },
+      "registration_date": "2024-08-20",
+      "last_login": "2025-09-14T09:02:00Z"
+    },
+    {
+      "id": "stu-003",
+      "enrollment_number": "GTU/2021/IT/1003",
+      "name": "Chirag Desai",
+      "email": "chirag.desai@skit.edu.in",
+      "personal_email": "chirag.d.personal@yahoo.com",
+      "phone": "+91-9090909090",
+      "institution_id": "inst-gtu-001",
+      "course": "B.Tech Information Technology",
+      "semester": 8,
+      "year": 4,
+      "expected_graduation": "2025-06-15",
+      "profile": {
+        "photo": "chirag_desai.jpg",
+        "bio": "Final year IT student; backend developer intern at RadientRise.",
+        "skills": ["Node.js", "SQL", "Docker"],
+        "verification_score": 76.8,
+        "profile_completion": 95
+      },
+      "academic_details": {
+        "current_cgpa": 7.9,
+        "total_credits": 160,
+        "attendance": 89.1
+      },
+      "verification_status": {
+        "total_documents": 12,
+        "verified": 9,
+        "pending": 2,
+        "rejected": 1
+      },
+      "registration_date": "2021-06-05",
+      "last_login": "2025-09-16T11:45:30Z"
+    },
+    {
+      "id": "stu-004",
+      "enrollment_number": "GTU/2024/ME/1004",
+      "name": "Deepa Joshi",
+      "email": "deepa.joshi@gpv.edu.in",
+      "personal_email": "deepa.j.personal@gmail.com",
+      "phone": "+91-9998887776",
+      "institution_id": "inst-gtu-003",
+      "course": "Diploma Mechanical",
+      "semester": 4,
+      "year": 2,
+      "expected_graduation": "2026-05-30",
+      "profile": {
+        "photo": "deepa_joshi.jpg",
+        "bio": "Practical oriented diploma student.",
+        "skills": ["CAD", "Workshop"],
+        "verification_score": 32.1,
+        "profile_completion": 60
+      },
+      "academic_details": {
+        "current_cgpa": 6.1,
+        "total_credits": 80,
+        "attendance": 68.3
+      },
+      "verification_status": {
+        "total_documents": 4,
+        "verified": 1,
+        "pending": 2,
+        "rejected": 1
+      },
+      "registration_date": "2024-11-15",
+      "last_login": "2025-09-10T07:22:11Z"
+    },
+    {
+      "id": "stu-005",
+      "enrollment_number": "GTU/2022/CE/1005",
+      "name": "Esha Mehta",
+      "email": "esha.mehta@skit.edu.in",
+      "personal_email": "esha.mehta@hotmail.com",
+      "phone": "+91-9712345678",
+      "institution_id": "inst-gtu-001",
+      "course": "B.Tech Civil",
+      "semester": 6,
+      "year": 3,
+      "expected_graduation": "2025-06-15",
+      "profile": {
+        "photo": "esha_mehta.jpg",
+        "bio": "Active in college NCC and community building.",
+        "skills": ["AutoCAD", "Surveying"],
+        "verification_score": 84.7,
+        "profile_completion": 92
+      },
+      "academic_details": {
+        "current_cgpa": 8.1,
+        "total_credits": 118,
+        "attendance": 95.0
+      },
+      "verification_status": {
+        "total_documents": 9,
+        "verified": 9,
+        "pending": 0,
+        "rejected": 0
+      },
+      "registration_date": "2022-07-01",
+      "last_login": "2025-09-17T18:00:00Z"
+    },
+    {
+      "id": "stu-006",
+      "enrollment_number": "GTU/2023/CS/1006",
+      "name": "Faiz Khan",
+      "email": "faiz.khan@spce.ac.in",
+      "personal_email": "faiz.k.personal@gmail.com",
+      "phone": "+91-9988776655",
+      "institution_id": "inst-gtu-002",
+      "course": "B.Tech Computer Science",
+      "semester": 4,
+      "year": 2,
+      "expected_graduation": "2026-06-15",
+      "profile": {
+        "photo": "faiz_khan.jpg",
+        "bio": "Loves hackathons and open-source.",
+        "skills": ["JavaScript", "React"],
+        "verification_score": 63.4,
+        "profile_completion": 70
+      },
+      "academic_details": {
+        "current_cgpa": 7.0,
+        "total_credits": 64,
+        "attendance": 85.2
+      },
+      "verification_status": {
+        "total_documents": 5,
+        "verified": 3,
+        "pending": 1,
+        "rejected": 1
+      },
+      "registration_date": "2023-09-02",
+      "last_login": "2025-09-13T12:10:55Z"
+    },
+    {
+      "id": "stu-007",
+      "enrollment_number": "GTU/2020/IT/1007",
+      "name": "Gaurav Rana",
+      "email": "gaurav.rana@skit.edu.in",
+      "personal_email": "gaurav.rana@yahoo.com",
+      "phone": "+91-9091818272",
+      "institution_id": "inst-gtu-001",
+      "course": "B.Tech Information Technology",
+      "semester": 8,
+      "year": 4,
+      "expected_graduation": "2024-06-15",
+      "profile": {
+        "photo": "gaurav_rana.jpg",
+        "bio": "Placed at TechWorks; interested in ML ops.",
+        "skills": ["Python", "Kubernetes", "CI/CD"],
+        "verification_score": 98.9,
+        "profile_completion": 100
+      },
+      "academic_details": {
+        "current_cgpa": 9.2,
+        "total_credits": 165,
+        "attendance": 98.2
+      },
+      "verification_status": {
+        "total_documents": 15,
+        "verified": 15,
+        "pending": 0,
+        "rejected": 0
+      },
+      "registration_date": "2020-06-01",
+      "last_login": "2025-09-16T06:30:00Z"
+    },
+    {
+      "id": "stu-008",
+      "enrollment_number": "GTU/2022/EC/1008",
+      "name": "Hina Vora",
+      "email": "hina.vora@spce.ac.in",
+      "personal_email": "hina.vora@gmail.com",
+      "phone": "+91-9765432101",
+      "institution_id": "inst-gtu-002",
+      "course": "B.Tech Electronics",
+      "semester": 4,
+      "year": 2,
+      "expected_graduation": "2026-06-15",
+      "profile": {
+        "photo": "hina_vora.jpg",
+        "bio": "Robotics club coordinator.",
+        "skills": ["Arduino", "Embedded Systems"],
+        "verification_score": 55.4,
+        "profile_completion": 70
+      },
+      "academic_details": {
+        "current_cgpa": 7.2,
+        "total_credits": 70,
+        "attendance": 81.5
+      },
+      "verification_status": {
+        "total_documents": 4,
+        "verified": 2,
+        "pending": 2,
+        "rejected": 0
+      },
+      "registration_date": "2022-08-30",
+      "last_login": "2025-09-16T10:15:12Z"
+    },
+    {
+      "id": "stu-009",
+      "enrollment_number": "GTU/2024/CS/1009",
+      "name": "Isha Nair",
+      "email": "isha.nair@spce.ac.in",
+      "personal_email": "isha.nair@example.com",
+      "phone": "+91-9001122334",
+      "institution_id": "inst-gtu-002",
+      "course": "B.Tech Computer Science",
+      "semester": 1,
+      "year": 1,
+      "expected_graduation": "2028-06-15",
+      "profile": {
+        "photo": "isha_nair.jpg",
+        "bio": "Newly enrolled; active in student council.",
+        "skills": [],
+        "verification_score": 10.0,
+        "profile_completion": 20
+      },
+      "academic_details": {
+        "current_cgpa": 0.0,
+        "total_credits": 0,
+        "attendance": 0.0
+      },
+      "verification_status": {
+        "total_documents": 0,
+        "verified": 0,
+        "pending": 0,
+        "rejected": 0
+      },
+      "registration_date": "2024-09-01",
+      "last_login": "2025-09-01T08:00:00Z"
+    },
+    {
+      "id": "stu-010",
+      "enrollment_number": "GTU/2021/CS/1010",
+      "name": "Jatin Mehra",
+      "email": "jatin.mehra@skit.edu.in",
+      "personal_email": "jatin.m.personal@gmail.com",
+      "phone": "+91-9123456780",
+      "institution_id": "inst-gtu-001",
+      "course": "B.Tech Computer Science",
+      "semester": 8,
+      "year": 4,
+      "expected_graduation": "2025-06-15",
+      "profile": {
+        "photo": "jatin_mehra.jpg",
+        "bio": "Worked on solar power prediction project.",
+        "skills": ["Python", "Pandas", "ML"],
+        "verification_score": 72.3,
+        "profile_completion": 90
+      },
+      "academic_details": {
+        "current_cgpa": 7.6,
+        "total_credits": 160,
+        "attendance": 88.5
+      },
+      "verification_status": {
+        "total_documents": 10,
+        "verified": 8,
+        "pending": 1,
+        "rejected": 1
+      },
+      "registration_date": "2021-06-18",
+      "last_login": "2025-09-12T19:20:13Z"
+    }
+  ],
+
+  "activities": [
+    {
+      "id": "act-0001",
+      "student_id": "stu-001",
+      "type": "internship_certificate",
+      "title": "Backend Development Intern - RadientRise",
+      "organization": "RadientRise Pvt Ltd",
+      "date": "2024-05-10",
+      "location": "Ahmedabad, Gujarat, India",
+      "description": "3-month backend internship working on API Rate Limiting system.",
+      "documents": [
+        {
+          "filename": "radientrise_internship_amit.pdf",
+          "url": "https://demo.invalid/docs/radientrise_internship_amit.pdf",
+          "gps": { "lat": 23.0225, "lng": 72.5714 },
+          "gps_verified": true,
+          "biometric_match_score": 94.5,
+          "extracted_text": "This is to certify that Amit Sharma has completed internship..."
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 96.1,
+        "status": "verified",
+        "mentor_id": "mentor-01",
+        "mentor_comments": "Verified with onboarding records from company HR. Strong match.",
+        "verification_date": "2024-08-01"
+      },
+      "additional_proof": {
+        "supervisor_contact": "hr@radientrise.com",
+        "offer_letter_id": "RR-INT-2024-558"
+      }
+    },
+    {
+      "id": "act-0002",
+      "student_id": "stu-002",
+      "type": "participation_certificate",
+      "title": "Robotics Workshop - Participant",
+      "organization": "Automation Society - SPCE",
+      "date": "2025-02-20",
+      "location": "Ahmedabad, Gujarat, India",
+      "description": "1-day hands-on robotics workshop.",
+      "documents": [
+        {
+          "filename": "robotics_workshop_bhavika.jpg",
+          "url": "https://demo.invalid/docs/robotics_workshop_bhavika.jpg",
+          "gps": { "lat": 23.0390, "lng": 72.5247 },
+          "gps_verified": false,
+          "biometric_match_score": 56.0,
+          "extracted_text": "Certificate of participation awarded to Bhavika..."
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 42.3,
+        "status": "pending",
+        "mentor_id": "mentor-02",
+        "mentor_comments": "",
+        "verification_date": null
+      },
+      "additional_proof": {
+        "attendance_sheet": "https://demo.invalid/docs/attendance_roboworkshop_spce.csv",
+        "note": "GPS mismatch flagged; student uploaded selfie but match is weak."
+      }
+    },
+    {
+      "id": "act-0003",
+      "student_id": "stu-003",
+      "type": "project_completion",
+      "title": "Solar Power Prediction Model",
+      "organization": "College Project - SKIT",
+      "date": "2024-12-05",
+      "location": "Rajkot, Gujarat, India",
+      "description": "Final year project to predict GHI using weather features.",
+      "documents": [
+        {
+          "filename": "solar_project_report_chirag.pdf",
+          "url": "https://demo.invalid/docs/solar_project_report_chirag.pdf",
+          "gps": { "lat": 21.5175, "lng": 70.4546 },
+          "gps_verified": true,
+          "biometric_match_score": 88.2,
+          "extracted_text": "Abstract: This project explores solar irradiance prediction..."
+        },
+        {
+          "filename": "presentation_chirag.pptx",
+          "url": "https://demo.invalid/docs/presentation_chirag.pptx",
+          "gps": { "lat": 21.5175, "lng": 70.4546 },
+          "gps_verified": true,
+          "biometric_match_score": 86.0,
+          "extracted_text": ""
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 84.0,
+        "status": "verified",
+        "mentor_id": "mentor-01",
+        "mentor_comments": "Project artifacts look genuine. Code repo linked and checked.",
+        "verification_date": "2025-01-10"
+      },
+      "additional_proof": {
+        "github_repo": "https://github.com/demo/solar-prediction-chirag"
+      }
+    },
+    {
+      "id": "act-0004",
+      "student_id": "stu-004",
+      "type": "skill_certificate",
+      "title": "AutoCAD Basic Certification",
+      "organization": "Govt. Skill Council",
+      "date": "2025-03-15",
+      "location": "Vadodara, Gujarat, India",
+      "description": "AutoCAD certification for workshop layout design.",
+      "documents": [
+        {
+          "filename": "autocad_deepa.pdf",
+          "url": "https://demo.invalid/docs/autocad_deepa.pdf",
+          "gps": { "lat": 22.3072, "lng": 73.1812 },
+          "gps_verified": true,
+          "biometric_match_score": 40.0,
+          "extracted_text": "Certificate: This is to verify Deepa..."
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 34.2,
+        "status": "rejected",
+        "mentor_id": "mentor-03",
+        "mentor_comments": "Biometric match too low and document formatting inconsistent with issuer templates. Rejected.",
+        "verification_date": "2025-04-01"
+      },
+      "additional_proof": {
+        "issuer_contact": "support@govtskill.in"
+      }
+    },
+    {
+      "id": "act-0005",
+      "student_id": "stu-005",
+      "type": "social_work",
+      "title": "NSS Blood Donation Camp - Volunteer",
+      "organization": "NSS Cell - SKIT",
+      "date": "2023-09-10",
+      "location": "Rajkot, Gujarat, India",
+      "description": "Volunteer at college blood donation drive.",
+      "documents": [
+        {
+          "filename": "nss_blood_esha.jpg",
+          "url": "https://demo.invalid/docs/nss_blood_esha.jpg",
+          "gps": { "lat": 22.3039, "lng": 70.8022 },
+          "gps_verified": true,
+          "biometric_match_score": 95.0,
+          "extracted_text": "Certificate of Appreciation: Esha Mehta"
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 98.2,
+        "status": "verified",
+        "mentor_id": "mentor-01",
+        "mentor_comments": "Verified via NSS coordinator and attendance sheet.",
+        "verification_date": "2023-10-01"
+      },
+      "additional_proof": {
+        "coordinator_contact": "nss@skit.edu.in"
+      }
+    },
+    {
+      "id": "act-0006",
+      "student_id": "stu-006",
+      "type": "participation_certificate",
+      "title": "Hackathon - Participant (Duplicate)",
+      "organization": "Hack Gujarat",
+      "date": "2024-11-07",
+      "location": "Ahmedabad, Gujarat, India",
+      "description": "48-hour hackathon participation.",
+      "documents": [
+        {
+          "filename": "hackathon_faiz_1.pdf",
+          "url": "https://demo.invalid/docs/hackathon_faiz_1.pdf",
+          "gps": { "lat": 23.0225, "lng": 72.5714 },
+          "gps_verified": true,
+          "biometric_match_score": 78.7,
+          "extracted_text": "Certificate: Faiz Khan participated in Hack Gujarat 2024"
+        },
+        {
+          "filename": "hackathon_faiz_2.pdf",
+          "url": "https://demo.invalid/docs/hackathon_faiz_2.pdf",
+          "gps": { "lat": 23.0226, "lng": 72.5715 },
+          "gps_verified": true,
+          "biometric_match_score": 79.0,
+          "extracted_text": "Certificate: Faiz Khan participated in Hack Gujarat 2024"
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 88.0,
+        "status": "under_review",
+        "mentor_id": "mentor-02",
+        "mentor_comments": "Duplicate certificate detected (two similar files). Need HR confirmation.",
+        "verification_date": null
+      },
+      "additional_proof": {
+        "duplicate_flag": true,
+        "note": "Two docs with same text but slightly different metadata."
+      }
+    },
+    {
+      "id": "act-0007",
+      "student_id": "stu-007",
+      "type": "internship_certificate",
+      "title": "SDE Intern - TechWorks",
+      "organization": "TechWorks Solutions",
+      "date": "2023-06-01",
+      "location": "Rajkot, Gujarat, India",
+      "description": "6-month internship in backend services.",
+      "documents": [
+        {
+          "filename": "techworks_jatin_intern.pdf",
+          "url": "https://demo.invalid/docs/techworks_jatin_intern.pdf",
+          "gps": { "lat": 22.2911, "lng": 70.8031 },
+          "gps_verified": true,
+          "biometric_match_score": 93.4,
+          "extracted_text": "Internship completion certificate for Jatin Mehra"
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 94.7,
+        "status": "verified",
+        "mentor_id": "mentor-01",
+        "mentor_comments": "Company responded to verification with HR letter.",
+        "verification_date": "2023-12-01"
+      },
+      "additional_proof": {
+        "hr_letter_url": "https://demo.invalid/hr/techworks_jatin_hr.pdf"
+      }
+    },
+    {
+      "id": "act-0008",
+      "student_id": "stu-008",
+      "type": "participation_certificate",
+      "title": "National Robotics Meet - Volunteer",
+      "organization": "Robotics Assoc. India",
+      "date": "2025-01-22",
+      "location": "Surat, Gujarat, India",
+      "description": "Volunteer at the national robotics meet.",
+      "documents": [
+        {
+          "filename": "robotics_vol_hina.jpg",
+          "url": "https://demo.invalid/docs/robotics_vol_hina.jpg",
+          "gps": { "lat": 21.1702, "lng": 72.8311 },
+          "gps_verified": false,
+          "biometric_match_score": 62.2,
+          "extracted_text": "Volunteer certificate for Hina Vora"
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 60.0,
+        "status": "pending",
+        "mentor_id": "mentor-02",
+        "mentor_comments": "",
+        "verification_date": null
+      },
+      "additional_proof": {
+        "orga_contact": "info@roboticsindia.org"
+      }
+    },
+    {
+      "id": "act-0009",
+      "student_id": "stu-009",
+      "type": "participation_certificate",
+      "title": "Orientation Volunteer",
+      "organization": "SPCE Orientation Committee",
+      "date": "2024-09-05",
+      "location": "Ahmedabad, Gujarat, India",
+      "description": "Helped organise freshmen orientation.",
+      "documents": [
+        {
+          "filename": "orientation_isha.jpg",
+          "url": "https://demo.invalid/docs/orientation_isha.jpg",
+          "gps": { "lat": 23.0390, "lng": 72.5247 },
+          "gps_verified": true,
+          "biometric_match_score": 55.0,
+          "extracted_text": "Certificate: Isha Nair - Volunteer"
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 49.0,
+        "status": "under_review",
+        "mentor_id": "mentor-02",
+        "mentor_comments": "New student; low match score but coordinator confirmed via email.",
+        "verification_date": null
+      },
+      "additional_proof": {
+        "coordinator_email": "orientation@spce.ac.in"
+      }
+    },
+    {
+      "id": "act-0010",
+      "student_id": "stu-010",
+      "type": "project_completion",
+      "title": "API Rate Limiting Library",
+      "organization": "College Project - SKIT",
+      "date": "2024-07-20",
+      "location": "Rajkot, Gujarat, India",
+      "description": "Designed Redis-based rate limiting library for Express.js.",
+      "documents": [
+        {
+          "filename": "rate_limiter_jatin.pdf",
+          "url": "https://demo.invalid/docs/rate_limiter_jatin.pdf",
+          "gps": { "lat": 21.5175, "lng": 70.4546 },
+          "gps_verified": true,
+          "biometric_match_score": 90.1,
+          "extracted_text": "Project report on API Rate Limiting System"
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 81.5,
+        "status": "verified",
+        "mentor_id": "mentor-01",
+        "mentor_comments": "Project validated, code links checked.",
+        "verification_date": "2024-09-01"
+      },
+      "additional_proof": {
+        "github_repo": "https://github.com/demo/rate-limiter"
+      }
+    },
+    {
+      "id": "act-0011",
+      "student_id": "stu-006",
+      "type": "skill_certificate",
+      "title": "React Fundamentals",
+      "organization": "Online Academy",
+      "date": "2024-01-10",
+      "location": "Online",
+      "description": "Online certification in React basics.",
+      "documents": [
+        {
+          "filename": "react_faiz.pdf",
+          "url": "https://demo.invalid/docs/react_faiz.pdf",
+          "gps": null,
+          "gps_verified": false,
+          "biometric_match_score": 76.0,
+          "extracted_text": "Certified: Faiz Khan completed React Fundamentals"
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 70.0,
+        "status": "verified",
+        "mentor_id": "mentor-02",
+        "mentor_comments": "Verified via platform API call (online certificate).",
+        "verification_date": "2024-02-01"
+      },
+      "additional_proof": {
+        "platform_id": "online-ac-uid-889"
+      }
+    },
+    {
+      "id": "act-0012",
+      "student_id": "stu-003",
+      "type": "participation_certificate",
+      "title": "Data Science Seminar - Attendee",
+      "organization": "SKIT CS Dept",
+      "date": "2023-10-11",
+      "location": "Rajkot, Gujarat, India",
+      "description": "Attended guest lecture on data pipelines.",
+      "documents": [
+        {
+          "filename": "seminar_chirag.jpg",
+          "url": "https://demo.invalid/docs/seminar_chirag.jpg",
+          "gps": { "lat": 21.5176, "lng": 70.4547 },
+          "gps_verified": true,
+          "biometric_match_score": 87.2,
+          "extracted_text": "Attendance: Chirag Desai"
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 85.0,
+        "status": "verified",
+        "mentor_id": "mentor-01",
+        "mentor_comments": "Simple attendance certificate; ok.",
+        "verification_date": "2023-10-15"
+      },
+      "additional_proof": {
+        "speaker_list": "Prof. XYZ"
+      }
+    },
+    {
+      "id": "act-0013",
+      "student_id": "stu-005",
+      "type": "project_completion",
+      "title": "Community Water Filter Initiative",
+      "organization": "NSS - SKIT",
+      "date": "2023-11-20",
+      "location": "Rajkot outskirts, Gujarat, India",
+      "description": "Built and deployed low-cost water filters in nearby village.",
+      "documents": [
+        {
+          "filename": "water_filter_esha.pdf",
+          "url": "https://demo.invalid/docs/water_filter_esha.pdf",
+          "gps": { "lat": 21.4811, "lng": 70.1275 },
+          "gps_verified": true,
+          "biometric_match_score": 92.0,
+          "extracted_text": "Project completion and community impact report"
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 95.0,
+        "status": "verified",
+        "mentor_id": "mentor-01",
+        "mentor_comments": "High impact; verified with field photos.",
+        "verification_date": "2023-12-12"
+      },
+      "additional_proof": {
+        "field_photos": [
+          "https://demo.invalid/imgs/water_filter_1.jpg",
+          "https://demo.invalid/imgs/water_filter_2.jpg"
+        ]
+      }
+    },
+    {
+      "id": "act-0014",
+      "student_id": "stu-002",
+      "type": "internship_certificate",
+      "title": "Short Summer Internship - Local Startup",
+      "organization": "Ahmedabad Robotics Lab",
+      "date": "2024-06-01",
+      "location": "Ahmedabad, Gujarat, India",
+      "description": "2-week practical internship.",
+      "documents": [
+        {
+          "filename": "startup_intern_bhavika.pdf",
+          "url": "https://demo.invalid/docs/startup_intern_bhavika.pdf",
+          "gps": { "lat": 23.0400, "lng": 72.5250 },
+          "gps_verified": false,
+          "biometric_match_score": 52.0,
+          "extracted_text": "Intern certificate - Bhavika Patel"
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 38.0,
+        "status": "rejected",
+        "mentor_id": "mentor-03",
+        "mentor_comments": "Insufficient proof of duration; employer contact not reachable.",
+        "verification_date": "2024-07-10"
+      },
+      "additional_proof": {
+        "employer_contact": "info@ahmedrobotics.in",
+        "note": "Phone number provided is invalid."
+      }
+    },
+    {
+      "id": "act-0015",
+      "student_id": "stu-007",
+      "type": "skill_certificate",
+      "title": "Kubernetes Fundamentals",
+      "organization": "CloudLearn",
+      "date": "2022-12-10",
+      "location": "Online",
+      "description": "Completed CloudLearn certified course.",
+      "documents": [
+        {
+          "filename": "k8s_gaurav.pdf",
+          "url": "https://demo.invalid/docs/k8s_gaurav.pdf",
+          "gps": null,
+          "gps_verified": false,
+          "biometric_match_score": 96.2,
+          "extracted_text": "CloudLearn certifies Gaurav Rana in Kubernetes Fundamentals"
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 99.0,
+        "status": "verified",
+        "mentor_id": "mentor-01",
+        "mentor_comments": "Platform API returned verification token.",
+        "verification_date": "2023-01-05"
+      },
+      "additional_proof": {
+        "platform_token": "CL-VER-33444"
+      }
+    },
+    {
+      "id": "act-0016",
+      "student_id": "stu-010",
+      "type": "participation_certificate",
+      "title": "Workshop on Scalable APIs",
+      "organization": "API Guild",
+      "date": "2024-04-12",
+      "location": "Rajkot, Gujarat, India",
+      "description": "One-day hands-on workshop.",
+      "documents": [
+        {
+          "filename": "api_workshop_jatin.jpg",
+          "url": "https://demo.invalid/docs/api_workshop_jatin.jpg",
+          "gps": { "lat": 21.5175, "lng": 70.4546 },
+          "gps_verified": true,
+          "biometric_match_score": 89.5,
+          "extracted_text": "Participation certificate: Jatin Mehra"
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 86.0,
+        "status": "verified",
+        "mentor_id": "mentor-01",
+        "mentor_comments": "Straightforward verification.",
+        "verification_date": "2024-04-20"
+      },
+      "additional_proof": {}
+    },
+    {
+      "id": "act-0017",
+      "student_id": "stu-005",
+      "type": "participation_certificate",
+      "title": "Student Exchange - Rural Outreach",
+      "organization": "Village Connect NGO",
+      "date": "2023-08-15",
+      "location": "Near Rajkot, Gujarat, India",
+      "description": "2-week rural outreach program.",
+      "documents": [
+        {
+          "filename": "village_connect_esha.pdf",
+          "url": "https://demo.invalid/docs/village_connect_esha.pdf",
+          "gps": { "lat": 21.5840, "lng": 70.8871 },
+          "gps_verified": true,
+          "biometric_match_score": 91.0,
+          "extracted_text": "Village Connect certifies participation of Esha Mehta"
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 93.0,
+        "status": "verified",
+        "mentor_id": "mentor-01",
+        "mentor_comments": "NGO confirmed via phone; strong proof.",
+        "verification_date": "2023-09-01"
+      },
+      "additional_proof": {
+        "ngo_contact": "coordinator@villageconnect.org"
+      }
+    },
+    {
+      "id": "act-0018",
+      "student_id": "stu-003",
+      "type": "participation_certificate",
+      "title": "Article Published - College Blog",
+      "organization": "SKIT Blog",
+      "date": "2022-11-01",
+      "location": "Rajkot, Gujarat, India",
+      "description": "Published technical article on solar datasets.",
+      "documents": [
+        {
+          "filename": "article_chirag.pdf",
+          "url": "https://demo.invalid/docs/article_chirag.pdf",
+          "gps": { "lat": 21.5176, "lng": 70.4547 },
+          "gps_verified": true,
+          "biometric_match_score": 85.0,
+          "extracted_text": "Published: Understanding solar irradiance..."
+        }
+      ],
+      "verification": {
+        "ai_confidence_score": 88.0,
+        "status": "verified",
+        "mentor_id": "mentor-01",
+        "mentor_comments": "Publication verified on college blog.",
+        "verification_date": "2022-11-10"
+      },
+      "additional_proof": {
+        "blog_url": "https://skit.edu.in/blogs/solar-datasets-chirag"
+      }
+    }
+  ],
+
+  "mentors": [
+    {
+      "id": "mentor-01",
+      "name": "Dr. Sunita Rao",
+      "designation": "Associate Professor",
+      "department": "Computer Science",
+      "institution_id": "inst-gtu-001",
+      "email": "sunita.rao@skit.edu.in",
+      "phone": "+91-9822001122",
+      "experience": 12,
+      "specialization": ["Machine Learning", "Computer Vision"],
+      "verification_stats": {
+        "total_reviews": 482,
+        "avg_turnaround_time": 12.5,
+        "accuracy_rate": 95.2
+      },
+      "active_since": "2019-08-01"
+    },
+    {
+      "id": "mentor-02",
+      "name": "Prof. Kunal Shah",
+      "designation": "Assistant Professor",
+      "department": "Electronics",
+      "institution_id": "inst-gtu-002",
+      "email": "kunal.shah@spce.ac.in",
+      "phone": "+91-9876003344",
+      "experience": 6,
+      "specialization": ["Embedded Systems", "Robotics"],
+      "verification_stats": {
+        "total_reviews": 210,
+        "avg_turnaround_time": 24.0,
+        "accuracy_rate": 89.0
+      },
+      "active_since": "2022-01-14"
+    },
+    {
+      "id": "mentor-03",
+      "name": "Mr. Rohit Deshpande",
+      "designation": "Industry Mentor",
+      "department": "External",
+      "institution_id": "inst-gtu-003",
+      "email": "rohit.d@consultant.in",
+      "phone": "+91-9012345670",
+      "experience": 8,
+      "specialization": ["Skill Certification", "Industry Liaison"],
+      "verification_stats": {
+        "total_reviews": 124,
+        "avg_turnaround_time": 36.2,
+        "accuracy_rate": 72.5
+      },
+      "active_since": "2023-05-10"
+    },
+    {
+      "id": "mentor-04",
+      "name": "Dr. Anjali Menon",
+      "designation": "Professor",
+      "department": "Civil Engineering",
+      "institution_id": "inst-gtu-001",
+      "email": "anjali.menon@skit.edu.in",
+      "phone": "+91-9898989898",
+      "experience": 15,
+      "specialization": ["Community Projects", "NAAC Reporting"],
+      "verification_stats": {
+        "total_reviews": 320,
+        "avg_turnaround_time": 10.0,
+        "accuracy_rate": 93.0
+      },
+      "active_since": "2018-03-20"
+    }
+  ],
+
+  "ngos": [
+    {
+      "id": "ngo-001",
+      "name": "Village Connect NGO",
+      "registration_number": "NGO-GJ-2020-7788",
+      "type": "Community Development",
+      "location": "Rajkot, Gujarat, India",
+      "contact": {
+        "coordinator": "Priya Shah",
+        "email": "coordinator@villageconnect.org",
+        "phone": "+91-9900112233"
+      },
+      "activities": ["water_filter_deployment", "health_camps"],
+      "established": 2016,
+      "status": "verified"
+    },
+    {
+      "id": "ngo-002",
+      "name": "Ahmedabad Robotics Lab",
+      "registration_number": "NGO-GJ-2019-5566",
+      "type": "Technical Education",
+      "location": "Ahmedabad, Gujarat, India",
+      "contact": {
+        "coordinator": "Vikram Patel",
+        "email": "info@ahmedrobotics.in",
+        "phone": "+91-9876501234"
+      },
+      "activities": ["workshops", "student-internship"],
+      "established": 2019,
+      "status": "pending"
+    }
+  ],
+
+  "companies": [
+    {
+      "id": "comp-001",
+      "name": "RadientRise Pvt Ltd",
+      "type": "Startup",
+      "location": "Ahmedabad, Gujarat, India",
+      "industry": "AI / Energy",
+      "contact": {
+        "hr_manager": "hr@radientrise.com",
+        "email": "hr@radientrise.com",
+        "phone": "+91-9823004455"
+      },
+      "internship_programs": [
+        {
+          "title": "Backend Intern",
+          "duration_months": 3,
+          "stipend": 8000
+        }
+      ],
+      "established": 2022,
+      "employee_count": 22,
+      "status": "verified"
+    },
+    {
+      "id": "comp-002",
+      "name": "TechWorks Solutions",
+      "type": "SME",
+      "location": "Rajkot, Gujarat, India",
+      "industry": "Software",
+      "contact": {
+        "hr_manager": "hr@techworks.com",
+        "email": "hr@techworks.com",
+        "phone": "+91-281-8765432"
+      },
+      "internship_programs": [
+        {
+          "title": "SDE Intern",
+          "duration_months": 6,
+          "stipend": 12000
+        }
+      ],
+      "established": 2017,
+      "employee_count": 120,
+      "status": "verified"
+    }
+  ],
+
+  "career_recommendations": [
+    {
+      "id": "rec-001",
+      "student_id": "stu-002",
+      "generated_date": "2025-09-14",
+      "top_careers": [
+        { "title": "Robotics Technician", "match_score": 62 },
+        { "title": "Embedded Systems Intern", "match_score": 58 }
+      ],
+      "skill_gaps": ["C++", "Electronics Troubleshooting"],
+      "learning_recommendations": [
+        "Short course: Embedded C (4 weeks)",
+        "Hands-on: join robotics club projects"
+      ],
+      "interview_readiness_score": 40
+    },
+    {
+      "id": "rec-002",
+      "student_id": "stu-007",
+      "generated_date": "2024-12-01",
+      "top_careers": [
+        { "title": "ML Engineer", "match_score": 92 },
+        { "title": "Site Reliability Engineer", "match_score": 88 }
+      ],
+      "skill_gaps": ["Cloud Security (minor)"],
+      "learning_recommendations": [
+        "Course: Advanced ML Ops",
+        "Project: Deploy ML model with CI/CD"
+      ],
+      "interview_readiness_score": 95
+    },
+    {
+      "id": "rec-003",
+      "student_id": "stu-005",
+      "generated_date": "2023-12-20",
+      "top_careers": [
+        { "title": "Community Project Coordinator", "match_score": 89 },
+        { "title": "Field Engineer (Water Systems)", "match_score": 72 }
+      ],
+      "skill_gaps": ["Grant Writing"],
+      "learning_recommendations": ["Attend NGO management workshop"],
+      "interview_readiness_score": 78
+    }
+  ],
+
+  "system_analytics": {
+    "platform_stats": {
+      "total_users": 12850,
+      "total_institutions": 56,
+      "total_documents": 24350,
+      "verification_accuracy": 89.4,
+      "avg_processing_time": "00:01:45"
+    },
+    "monthly_trends": [
+      { "month": "2025-06", "documents_processed": 2100, "verifications": 1980 },
+      { "month": "2025-07", "documents_processed": 2500, "verifications": 2350 },
+      { "month": "2025-08", "documents_processed": 2700, "verifications": 2580 }
+    ],
+    "verification_trends": {
+      "by_type": {
+        "internship_certificate": 7300,
+        "participation_certificate": 9300,
+        "skill_certificate": 3200,
+        "project_completion": 2100,
+        "social_work": 1350
+      },
+      "status_distribution": {
+        "verified": 19800,
+        "pending": 2000,
+        "rejected": 950,
+        "under_review": 600
+      }
+    }
+  }
+}
