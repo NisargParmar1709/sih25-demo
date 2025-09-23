@@ -45,7 +45,8 @@ export function Navigation({ user, onLogout }: NavigationProps) {
         return [
           ...commonItems,
           { name: 'Review Queue', href: '/mentor/queue', icon: Shield },
-          { name: 'Verification Tools', href: '/mentor/tools', icon: Settings },
+          { name: 'Batches', href: '/mentor/batches', icon: User },
+          { name: 'Announcements', href: '/mentor/announcements', icon: BarChart3 },
         ];
       case 'institution':
         return [
@@ -59,7 +60,10 @@ export function Navigation({ user, onLogout }: NavigationProps) {
         return [
           ...commonItems,
           { name: 'Institutions', href: '/admin/institutions', icon: Building },
-          { name: 'Analytics', href: '/admin/analytics', icon: BarChart3 },
+          { name: 'Users', href: '/admin/users', icon: User },
+          { name: 'Fraud Alerts', href: '/admin/fraud-alerts', icon: Shield },
+          { name: 'Reports', href: '/admin/reports', icon: BarChart3 },
+          { name: 'Models', href: '/admin/models', icon: Activity },
           { name: 'Settings', href: '/admin/settings', icon: Settings },
         ];
       default:

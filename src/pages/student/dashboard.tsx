@@ -88,7 +88,7 @@ export function StudentDashboard({ user }: StudentDashboardProps) {
               </Button>
             </Link>
             <div className="mb-4">
-              <Link to="/profile">
+              <Link to="/student/profile">
                 <Button variant="outline" size="sm" className="mr-2">
                   View Profile
                 </Button>
@@ -182,7 +182,7 @@ export function StudentDashboard({ user }: StudentDashboardProps) {
                   Add New Activity
                 </Button>
               </Link>
-              <Link to="/profile">
+              <Link to="/student/profile">
                 <Button variant="outline" className="w-full justify-start">
                   <Target className="h-4 w-4 mr-2" />
                   View Profile
